@@ -1,5 +1,6 @@
 body {
-    max-width: 1500px;
+    width: 100%;
+    min-width: 1000px;
     color: #767676;
 }
 
@@ -55,7 +56,7 @@ th,
     position: absolute;
     top: 10%;
     left: 20%;
-    font-size: 70px;
+    font-size: 65px;
     font-family: 'Indie Flower', cursive;
     color: #b31667;
     display: block;
@@ -112,11 +113,13 @@ th,
 .container__news-ttl-small,
 .container__news-ttl,
 .container__news-list {
-    margin-left: 350px;
+    margin-left: 25%;
 }
 
 .container__news-list {
     width: 60%;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
     padding: 30px 0;
     border-top: 2px solid #d2d2d2;
@@ -127,7 +130,7 @@ th,
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     border-bottom: 1px solid #d2d2d2;
 }
 
@@ -135,23 +138,26 @@ th,
     display: inline-block;
     font-size: 16px;
     padding: 10px 0;
+    margin-top: 8px;
 }
 
 .container__news-list-ctg {
     padding: 3px 15px;
-    width: 20%;
     display: inline-block;
     font-size: 15px;
     text-align: center;
     background-color: #b31667;
     color: #fff;
     border-radius: 12px;
+    margin: 15px 20px 0 20px;
 }
 
 .container__news-list-text {
+    width: 60%;
     display: inline-block;
     padding: 10px 0;
     font-size: 16px;
+    margin-top: 8px;
 }
 
 .container__about {
@@ -168,20 +174,25 @@ th,
 .container__about-content {
     display: flex;
     justify-content: center;
-    margin: 0 250px;
-    height: 20%;
+    margin-left: 15%;
+    height: 60%;
 }
 
 .container__about-text {
-    width: 1000px;
+    width: 30%;
     font-size: 16px;
-    margin-right: 240px;
     line-height: 24px;
 }
 
 .container__about-img {
-    width: 800px;
-    height: 250px;
+    max-width: 700px;
+    min-width: 400px;
+    height: 200px;
+    margin-left: 10%;
+}
+
+.container__about-img img {
+    width: 100%;
 }
 
 .container__service {
@@ -192,11 +203,11 @@ th,
 .container__service-ttl-small,
 .container__service-ttl,
 .container__service-description {
-    margin-left: 250px;
+    margin-left: 20%;
 }
 
 .container__service-description {
-    width: 1000px;
+    width: 75%;
     height: 400px;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -231,7 +242,7 @@ th,
 
 .container__service-description-img--desc1 {
     margin-top: 50px;
-    margin-left: 175px;
+    margin-left: 35%;
 }
 
 .container__service-description-ttl--desc1 {
@@ -253,13 +264,14 @@ th,
 .container__service-description-img {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 5%;
+    width: 30%;
 }
 
 .container__service-description-ttl {
     position: absolute;
     top: 50px;
-    left: 200px;
+    left: 40%;
     font-size: 20px;
 }
 
@@ -267,8 +279,8 @@ th,
     display: block;
     position: absolute;
     top: 80px;
-    left: 200px;
-    width: 60%;
+    left: 40%;
+    width: 50%;
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 25px;
@@ -282,26 +294,26 @@ th,
 .container__blog-ttl-small,
 .container__blog-ttl,
 .container__blog-card {
-    margin-left: 250px;
+    margin-left: 15%;
 }
 
 .container__blog-item {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    margin-right: 250px;
+    margin-right: 15%;
 }
 
 .container__blog-card {
     position: relative;
-    width: 30%;
+    width: 300px;
     height: 350px;
     border-radius: 15px;
     background-color: #fff;
 }
 
 .container__blog-card:not(:first-child) {
-    margin-left: 55px;
+    margin-left: 5%;
 }
 
 .container__blog-card-ctg {
@@ -320,6 +332,7 @@ th,
 .container__blog-card-img {
     position: absolute;
     width: 100%;
+    height: 55%;
     border-radius: 15px 15px 0 0;
     z-index: 0;
 }
@@ -330,8 +343,8 @@ th,
 
 .container__blog-card-ttl {
     position: absolute;
-    top: 220px;
-    left: 20px;
+    top: 60%;
+    left: 5%;
     width: 90%;
     font-size: 17px;
     line-height: 30px;
@@ -339,16 +352,19 @@ th,
 
 .container__blog-card-date {
     position: absolute;
-    top: 310px;
-    left: 20px;
-    font-size: 16px;
+    top: 90%;
+    left: 5%;
+    font-size: 90%;
 }
 
 .container__blog-card-tag {
     position: absolute;
-    top: 310px;
-    left: 170px;
-    font-size: 16px;
+    top: 90%;
+    left: 50%;
+    display: inline-block;
+    width: 45%;
+    font-size: 90%;
+    text-align: right;
 }
 
 .container__blog-btn {
@@ -364,7 +380,7 @@ th,
     border-radius: 30px;
     background-color: #fff;
     color: #b31667;
-    margin: 30px 650px;
+    margin: 30px 50%;
 }
 
 .container__company {
@@ -375,7 +391,7 @@ th,
 .container__company-ttl-small,
 .container__company-ttl,
 table {
-    margin-left: 350px;
+    margin-left: 20%;
 }
 
 .container__company-ttl {
