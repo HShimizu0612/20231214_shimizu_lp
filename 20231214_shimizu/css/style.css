@@ -174,7 +174,7 @@ th,
 .container__about-content {
     display: flex;
     justify-content: center;
-    margin-left: 15%;
+    margin: 0 auto;
     height: 60%;
 }
 
@@ -185,8 +185,7 @@ th,
 }
 
 .container__about-img {
-    max-width: 700px;
-    min-width: 400px;
+    width: 300px;
     height: 200px;
     margin-left: 10%;
 }
@@ -380,7 +379,7 @@ th,
     border-radius: 30px;
     background-color: #fff;
     color: #b31667;
-    margin: 30px 50%;
+    margin: 30px auto;
 }
 
 .container__company {
