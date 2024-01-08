@@ -111,16 +111,16 @@ th,
 }
 
 .container__news-ttl-small,
-.container__news-ttl,
-.container__news-list {
-    margin-left: 25%;
+.container__news-ttl {
+    margin-left: 20%;
+    margin-bottom: 30px;
 }
 
 .container__news-list {
     width: 60%;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin: 0 auto;
     padding: 30px 0;
     border-top: 2px solid #d2d2d2;
     border-bottom: 2px solid #d2d2d2;
@@ -200,9 +200,8 @@ th,
 }
 
 .container__service-ttl-small,
-.container__service-ttl,
-.container__service-description {
-    margin-left: 20%;
+.container__service-ttl {
+    margin-left: 12%;
 }
 
 .container__service-description {
@@ -212,6 +211,7 @@ th,
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     color: #fff;
+    margin: 0 auto;
 }
 
 .container__service-description1 {
@@ -291,16 +291,19 @@ th,
 }
 
 .container__blog-ttl-small,
-.container__blog-ttl,
-.container__blog-card {
-    margin-left: 15%;
+.container__blog-ttl {
+    margin-left: 12%;
+}
+
+.container__blog-tti {
+    margin-top: 50px;
 }
 
 .container__blog-item {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-right: 15%;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .container__blog-card {
@@ -388,13 +391,17 @@ th,
 }
 
 .container__company-ttl-small,
-.container__company-ttl,
-table {
+.container__company-ttl {
     margin-left: 20%;
 }
 
 .container__company-ttl {
     margin-bottom: 40px;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
 }
 
 tr {
@@ -427,6 +434,7 @@ td {
     width: 1000px;
     padding: 150px 0;
     background: url(../img/recruit.png) no-repeat right;
+    background-size: contain;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
@@ -437,6 +445,7 @@ td {
     width: 1000px;
     padding: 150px 0;
     background: url(../img/interview.png) no-repeat left;
+    background-size: contain;
     font-size: 35px;
     font-weight: bold;
     text-align: center;
